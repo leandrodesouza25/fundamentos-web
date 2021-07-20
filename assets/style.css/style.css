@@ -1,0 +1,85 @@
+/* Estilo e design da página HTML */
+
+
+body{
+    background-image: linear-gradient( #12111b , #887bff);
+
+}
+
+.botoes{
+    border: 0.25cm, white;
+
+
+}
+
+h1{
+    
+     
+    text-align: center;
+    width:20cm;
+    height: 2cm;
+    font-size: 1.7cm;
+    
+    background: -webkit-linear-gradient(orange,red);
+    background: linear-gradient(bottom, orange,red);
+    
+    /*imagem */
+   
+    background-image: url('https://media1.giphy.com/media/BHNfhgU63qrks/giphy.gif');
+    background-size: contain;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /*sombra8*/
+   /* box-shadow: 3px 3px rgb(46, 43, 43) ; */
+    
+     border-style:none;
+
+     /*espaçamento*/
+     padding-top: 20px;
+     margin-left: 7cm;
+     
+     
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, cursive; 
+     
+
+  
+
+
+   
+}
+
+.container {
+
+/* Alinhando a imagem */
+    border:  150px,  white;
+    display: flex ;
+    flex-flow: row wrap;
+    justify-content: center ;
+    
+}
+h2{
+    background-color:  rgb(255, 201, 102);
+    border: 2cm, solid , white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #501439;
+    text-align: center;
+
+   
+
+}
+p{   
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+
+
+}
+.contato{
+
+    display: flex ;
+    flex-flow: row wrap;
+    justify-content: center ;
+
+}
